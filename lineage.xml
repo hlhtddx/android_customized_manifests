@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="git://github.com/"
+           revision="car-emulator-oreo-mr1-release" />
+  <project path="hardware/lineage/interfaces" name="hlhtddx/android_hardware_lineage_interfaces" remote="github" >
+    <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
+  </project>
+  <remove-project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="aosp" />
+  <project path="external/f2fs-tools" name="hlhtddx/android_external_f2fs-tools" remote="github" />
+</manifest>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="git://github.com/"
+           revision="car-emulator-oreo-mr1-release" />
+  <project name="hlhtddx/android_device_htc_flounder" path="device/htc/flounder" remote="github" />
+  <project name="hlhtddx/android_kernel_htc_flounder" path="kernel/htc/flounder" remote="github" />
+  <project name="hlhtddx/proprietary_vendor_htc" path="vendor/htc" remote="github" />
+</manifest>

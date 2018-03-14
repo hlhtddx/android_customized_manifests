@@ -3,5 +3,5 @@
   <remote  name="github"
            fetch="https://github.com/"
            revision="car-emulator-oreo-mr1-release" />
-  <project name="vendor_hlhtddx" path="vendor/hlhtddx" remote="github" />
+  <project name="hlhtddx/vendor_hlhtddx" path="vendor/hlhtddx" remote="github" />
 </manifest>

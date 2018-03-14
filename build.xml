@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch="git://github.com/"
+           fetch="https://github.com/"
            revision="car-emulator-oreo-mr1-release" />
   <remove-project path="build/make" name="platform/build" remote="aosp" groups="pdk" />
   <project name="hlhtddx/platform_build" path="build/make" remote="github">

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com/"
+           revision="car-emulator-oreo-mr1-release" />
+  <project name="hlhtddx/android_device_asus_flo" path="device/asus/flo" remote="github" />
+  <project name="hlhtddx/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
+  <project name="hlhtddx/proprietary_vendor_asus" path="vendor/asus" remote="github" />
+</manifest>

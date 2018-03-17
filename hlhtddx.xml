@@ -2,6 +2,7 @@
 <manifest>
   <remote  name="github"
            fetch="https://github.com/"
+           review="review.gerrithub.io"
            revision="car-emulator-oreo-mr1-release" />
   <remove-project name="platform/frameworks/native" path="frameworks/native" />
   <project name="hlhtddx/android_frameworks_native" path="frameworks/native" remote="github" />

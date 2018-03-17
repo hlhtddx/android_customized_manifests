@@ -2,7 +2,8 @@
 <manifest>
   <remote  name="github"
            fetch="https://github.com/"
-           revision="car-emulator-oreo-mr1-release" />
+          review="review.gerrithub.io"
+          revision="car-emulator-oreo-mr1-release" />
   <project path="hardware/lineage/interfaces" name="hlhtddx/android_hardware_lineage_interfaces" remote="github" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>

@@ -4,10 +4,17 @@
            fetch="https://github.com/"
           review="review.gerrithub.io"
           revision="car-emulator-oreo-mr1-release" />
+
+<!-- Add lineage hardware like bcm gps -->
   <project path="hardware/lineage/interfaces" name="hlhtddx/android_hardware_lineage_interfaces" remote="github" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>
 
+<!-- Replace f2fs-tools with lineage version -->
+  <remove-project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="aosp" />
+  <project path="external/f2fs-tools" name="hlhtddx/android_external_f2fs-tools" remote="github" />
+
+<!-- Replace qcom hardware with lineage ones -->
   <remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
   <project path="hardware/qcom/audio" name="hlhtddx/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk"  remote="github" revision="lineage-15.1"/>
 
@@ -39,5 +46,4 @@
 
   <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
   <project path="hardware/qcom/wlan" name="hlhtddx/android_hardware_qcom_wlan" groups="qcom_wlan,pdk"  remote="github" revision="lineage-15.1"/>
-
 </manifest>

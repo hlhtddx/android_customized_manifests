@@ -6,4 +6,8 @@
            revision="car-emulator-oreo-mr1-release" />
   <remove-project name="platform/frameworks/native" path="frameworks/native" />
   <project name="hlhtddx/android_frameworks_native" path="frameworks/native" remote="github" />
+  <remove-project name="platform/system/bt" path="system/bt" />
+  <project name="hlhtddx/android_system_bt" path="system/bt" remote="github" />
+  <remove-project name="platform/system/sepolicy" path="system/sepolicy" />
+  <project name="hlhtddx/android_system_sepolicy" path="system/sepolicy" remote="github" />
 </manifest>

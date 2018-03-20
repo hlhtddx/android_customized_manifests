@@ -4,5 +4,5 @@
            fetch="https://github.com/"
            review="review.gerrithub.io"
            revision="car-emulator-oreo-mr1-release" />
-  <project name="hlhtddx/vendor_hlhtddx" path="vendor/hlhtddx" remote="github" />
+  <project name="hlhtddx/android_vendor_hlhtddx" path="vendor/hlhtddx" remote="github" />
 </manifest>

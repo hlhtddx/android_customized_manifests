@@ -16,34 +16,34 @@
 
 <!-- Replace qcom hardware with lineage ones -->
   <remove-project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
-  <project path="hardware/qcom/audio" name="hlhtddx/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk"  remote="github" revision="lineage-15.1"/>
+  <project path="hardware/qcom/audio" name="hlhtddx/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk"  remote="github" />
 
   <remove-project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/bootctrl" name="hlhtddx/android_hardware_qcom_bootctrl" groups="pdk"  remote="github" revision="lineage-15.1"/>
+  <project path="hardware/qcom/bootctrl" name="hlhtddx/android_hardware_qcom_bootctrl" groups="pdk"  remote="github" />
 
   <remove-project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
-  <project path="hardware/qcom/bt" name="hlhtddx/android_hardware_qcom_bt" groups="qcom,pdk"  remote="github" revision="lineage-15.1"/>
+  <project path="hardware/qcom/bt" name="hlhtddx/android_hardware_qcom_bt" groups="qcom,pdk"  remote="github" />
 
   <remove-project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera" />
-  <project path="hardware/qcom/camera" name="hlhtddx/android_hardware_qcom_camera" groups="qcom_camera"  remote="github" revision="lineage-15.1"/>
+  <project path="hardware/qcom/camera" name="hlhtddx/android_hardware_qcom_camera" groups="qcom_camera"  remote="github" />
 
   <remove-project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
-  <project path="hardware/qcom/display" name="hlhtddx/android_hardware_qcom_display" groups="pdk,qcom,qcom_display"  remote="github" revision="lineage-15.1"/>
+  <project path="hardware/qcom/display" name="hlhtddx/android_hardware_qcom_display" groups="pdk,qcom,qcom_display"  remote="github" />
 
   <remove-project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk" />
-  <project path="hardware/qcom/gps" name="hlhtddx/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk"  remote="github" revision="lineage-15.1"/>
+  <project path="hardware/qcom/gps" name="hlhtddx/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk"  remote="github" />
 
   <remove-project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />
-  <project path="hardware/qcom/keymaster" name="hlhtddx/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk"  remote="github" revision="lineage-15.1"/>
+  <project path="hardware/qcom/keymaster" name="hlhtddx/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk"  remote="github" />
 
   <remove-project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
-  <project path="hardware/qcom/media" name="hlhtddx/android_hardware_qcom_media" groups="qcom,pdk"  remote="github" revision="lineage-15.1"/>
+  <project path="hardware/qcom/media" name="hlhtddx/android_hardware_qcom_media" groups="qcom,pdk"  remote="github" />
 
   <remove-project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom,pdk" />
-  <project path="hardware/qcom/power" name="hlhtddx/android_hardware_qcom_power" groups="qcom,pdk"  remote="github" revision="lineage-15.1"/>
+  <project path="hardware/qcom/power" name="hlhtddx/android_hardware_qcom_power" groups="qcom,pdk"  remote="github" />
 
-  <project path="hardware/qcom/fm" name="hlhtddx/android_hardware_qcom_fm" groups="qcom,qcom_fm"  remote="github" revision="lineage-15.1"/>
+  <project path="hardware/qcom/fm" name="hlhtddx/android_hardware_qcom_fm" groups="qcom,qcom_fm"  remote="github" />
 
   <remove-project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk" />
-  <project path="hardware/qcom/wlan" name="hlhtddx/android_hardware_qcom_wlan" groups="qcom_wlan,pdk"  remote="github" revision="lineage-15.1"/>
+  <project path="hardware/qcom/wlan" name="hlhtddx/android_hardware_qcom_wlan" groups="qcom_wlan,pdk"  remote="github" />
 </manifest>

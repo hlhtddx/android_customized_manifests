@@ -13,31 +13,31 @@
            remote="github"
            sync-j="4" />
 
-  <project path="android_device_asus_flo" name="LineageOS/android_device_asus_flo" />
-  <project path="android_device_htc_flounder" name="LineageOS/android_device_htc_flounder" />
+  <project path="hlhtddx/android_device_asus_flo" name="LineageOS/android_device_asus_flo" />
+  <project path="hlhtddx/android_device_htc_flounder" name="LineageOS/android_device_htc_flounder" />
 
-  <project path="android_external_f2fs-tools" name="LineageOS/android_external_f2fs-tools" />
-  <project path="android_hardware_lineage_interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
+  <project path="hlhtddx/android_external_f2fs-tools" name="LineageOS/android_external_f2fs-tools" />
+  <project path="hlhtddx/android_hardware_lineage_interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
 
-  <project path="android_hardware_qcom_audio" name="LineageOS/android_hardware_qcom_audio" />
-  <project path="android_hardware_qcom_bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" />
-  <project path="android_hardware_qcom_bt" name="LineageOS/android_hardware_qcom_bt" />
-  <project path="android_hardware_qcom_camera" name="LineageOS/android_hardware_qcom_camera" />
-  <project path="android_hardware_qcom_display" name="LineageOS/android_hardware_qcom_display" />
-  <project path="android_hardware_qcom_fm" name="LineageOS/android_hardware_qcom_fm" />
-  <project path="android_hardware_qcom_gps" name="LineageOS/android_hardware_qcom_gps" />
-  <project path="android_hardware_qcom_keymaster" name="LineageOS/android_hardware_qcom_keymaster" />
-  <project path="android_hardware_qcom_media" name="LineageOS/android_hardware_qcom_media" />
-  <project path="android_hardware_qcom_power" name="LineageOS/android_hardware_qcom_power" />
-  <project path="android_hardware_qcom_wlan" name="LineageOS/android_hardware_qcom_wlan" />
+  <project path="hlhtddx/android_hardware_qcom_audio" name="LineageOS/android_hardware_qcom_audio" />
+  <project path="hlhtddx/android_hardware_qcom_bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" />
+  <project path="hlhtddx/android_hardware_qcom_bt" name="LineageOS/android_hardware_qcom_bt" />
+  <project path="hlhtddx/android_hardware_qcom_camera" name="LineageOS/android_hardware_qcom_camera" />
+  <project path="hlhtddx/android_hardware_qcom_display" name="LineageOS/android_hardware_qcom_display" />
+  <project path="hlhtddx/android_hardware_qcom_fm" name="LineageOS/android_hardware_qcom_fm" />
+  <project path="hlhtddx/android_hardware_qcom_gps" name="LineageOS/android_hardware_qcom_gps" />
+  <project path="hlhtddx/android_hardware_qcom_keymaster" name="LineageOS/android_hardware_qcom_keymaster" />
+  <project path="hlhtddx/android_hardware_qcom_media" name="LineageOS/android_hardware_qcom_media" />
+  <project path="hlhtddx/android_hardware_qcom_power" name="LineageOS/android_hardware_qcom_power" />
+  <project path="hlhtddx/android_hardware_qcom_wlan" name="LineageOS/android_hardware_qcom_wlan" />
 
-  <project path="android_kernel_google_msm" name="LineageOS/android_kernel_google_msm" />
-  <project path="android_kernel_htc_flounder" name="LineageOS/android_kernel_htc_flounder" />
+  <project path="hlhtddx/android_kernel_google_msm" name="LineageOS/android_kernel_google_msm" />
+  <project path="hlhtddx/android_kernel_htc_flounder" name="LineageOS/android_kernel_htc_flounder" />
 
-  <project path="proprietary_vendor_asus" name="TheMuppets/proprietary_vendor_asus" />
-  <project path="proprietary_vendor_htc" name="TheMuppets/proprietary_vendor_htc" />
+  <project path="hlhtddx/proprietary_vendor_asus" name="TheMuppets/proprietary_vendor_asus" />
+  <project path="hlhtddx/proprietary_vendor_htc" name="TheMuppets/proprietary_vendor_htc" />
 
-  <project path="android_frameworks_native" name="platform/frameworks/native" remote="aosp" />
-  <project path="android_system_bt" name="platform/system/bt" remote="aosp" />
-  <project path="android_system_sepolicy" name="platform/system/sepolicy" remote="aosp" />
+  <project path="hlhtddx/android_frameworks_native" name="platform/frameworks/native" remote="aosp" />
+  <project path="hlhtddx/android_system_bt" name="platform/system/bt" remote="aosp" />
+  <project path="hlhtddx/android_system_sepolicy" name="platform/system/sepolicy" remote="aosp" />
 </manifest>

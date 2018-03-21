@@ -9,8 +9,7 @@
            fetch="https://android.googlesource.com/"
            revision="refs/tags/android-8.1.0_r15" />
 
-  <default revision="lineage-15.1"
-           remote="github"
+  <default remote="github"
            sync-j="4" />
 
   <project path="hlhtddx/android_device_asus_flo" name="LineageOS/android_device_asus_flo" />

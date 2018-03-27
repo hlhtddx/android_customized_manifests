@@ -42,4 +42,5 @@
   <project path="hlhtddx/android_system_bt" name="platform/system/bt" remote="aosp" />
   <project path="hlhtddx/android_system_core" name="platform/system/core" remote="aosp" />
   <project path="hlhtddx/android_system_sepolicy" name="platform/system/sepolicy" remote="aosp" />
+  <project path="hlhtddx/android_prebuilts_misc" name="platform/prebuilts/misc" remote="aosp" />
 </manifest>

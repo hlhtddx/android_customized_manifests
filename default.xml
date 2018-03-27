@@ -9,35 +9,11 @@
            sync-j="4" />
 
   <project path="manifests/synch-repo" name ="hlhtddx/android_customized_manifests" revision="synch-repo"/>
+  <project path="manifests/merge-repo-aosp" name ="hlhtddx/android_customized_manifests" revision="merge-repo-aosp"/>
+  <project path="manifests/merge-repo-github" name ="hlhtddx/android_customized_manifests" revision="merge-repo-github"/>
+  <project path="manifests/merge-repo-manifest" name ="hlhtddx/android_customized_manifests" revision="merge-repo-manifest"/>
   <project path="manifests/merge-repo" name ="hlhtddx/android_customized_manifests" revision="merge-repo"/>
   <project path="manifests/car-emulator-oreo-mr1-release" name ="hlhtddx/android_customized_manifests" revision="car-emulator-oreo-mr1-release"/>
   <project path="manifests/car-emulator-oreo-mr1-release-linux" name ="hlhtddx/android_customized_manifests" revision="car-emulator-oreo-mr1-release-linux"/>
 
-  <project path="hlhtddx/android_device_asus_flo" name ="hlhtddx/android_device_asus_flo" />
-  <project path="hlhtddx/android_device_htc_flounder" name ="hlhtddx/android_device_htc_flounder" />
-
-  <project path="hlhtddx/android_external_f2fs-tools" name ="hlhtddx/android_external_f2fs-tools" />
-  <project path="hlhtddx/android_hardware_lineage_interfaces" name ="hlhtddx/android_hardware_lineage_interfaces" />
-
-  <project path="hlhtddx/android_hardware_qcom_audio" name ="hlhtddx/android_hardware_qcom_audio" />
-  <project path="hlhtddx/android_hardware_qcom_bootctrl" name ="hlhtddx/android_hardware_qcom_bootctrl" />
-  <project path="hlhtddx/android_hardware_qcom_bt" name ="hlhtddx/android_hardware_qcom_bt" />
-  <project path="hlhtddx/android_hardware_qcom_camera" name ="hlhtddx/android_hardware_qcom_camera" />
-  <project path="hlhtddx/android_hardware_qcom_display" name ="hlhtddx/android_hardware_qcom_display" />
-  <project path="hlhtddx/android_hardware_qcom_fm" name ="hlhtddx/android_hardware_qcom_fm" />
-  <project path="hlhtddx/android_hardware_qcom_gps" name ="hlhtddx/android_hardware_qcom_gps" />
-  <project path="hlhtddx/android_hardware_qcom_keymaster" name ="hlhtddx/android_hardware_qcom_keymaster" />
-  <project path="hlhtddx/android_hardware_qcom_media" name ="hlhtddx/android_hardware_qcom_media" />
-  <project path="hlhtddx/android_hardware_qcom_power" name ="hlhtddx/android_hardware_qcom_power" />
-  <project path="hlhtddx/android_hardware_qcom_wlan" name ="hlhtddx/android_hardware_qcom_wlan" />
-
-  <project path="hlhtddx/android_kernel_google_msm" name ="hlhtddx/android_kernel_google_msm" />
-  <project path="hlhtddx/android_kernel_htc_flounder" name ="hlhtddx/android_kernel_htc_flounder" />
-
-  <project path="hlhtddx/proprietary_vendor_asus" name ="hlhtddx/proprietary_vendor_asus" />
-  <project path="hlhtddx/proprietary_vendor_htc" name ="hlhtddx/proprietary_vendor_htc" />
-
-  <project path="hlhtddx/android_frameworks_native" name ="hlhtddx/android_frameworks_native" />
-  <project path="hlhtddx/android_system_bt" name ="hlhtddx/android_system_bt" />
-  <project path="hlhtddx/android_system_sepolicy" name ="hlhtddx/android_system_sepolicy" />
 </manifest>

@@ -4,12 +4,20 @@
            fetch="https://github.com/"
            review="review.gerrithub.io"
            revision="car-emulator-oreo-mr1-release" />
+  <remove-project name="platform/external/bison" path="external/bison" />
+  <project name="hlhtddx/android_external_bison" path="external/bison" remote="github" />
+  <remove-project name="platform/external/elfutils" path="external/elfutils" />
+  <project name="hlhtddx/android_external_elfutils" path="external/elfutils" remote="github" />
   <remove-project name="platform/frameworks/native" path="frameworks/native" />
   <project name="hlhtddx/android_frameworks_native" path="frameworks/native" remote="github" />
   <remove-project name="platform/system/bt" path="system/bt" />
   <project name="hlhtddx/android_system_bt" path="system/bt" remote="github" />
+  <remove-project name="platform/system/core" path="system/core" />
+  <project name="hlhtddx/android_system_core" path="system/core" remote="github" />
   <remove-project name="platform/system/sepolicy" path="system/sepolicy" />
   <project name="hlhtddx/android_system_sepolicy" path="system/sepolicy" remote="github" />
   <remove-project name="platform/build" path="build/make" />
   <project name="hlhtddx/android_platform_build" path="build/make" remote="github" />
+  <remove-project name="platform/prebuilts/misc" path="prebuilts/misc" />
+  <project name="hlhtddx/android_prebuilts_misc" path="prebuilts/misc" remote="github" />
 </manifest>

@@ -8,11 +8,6 @@
   <default remote="github"
            sync-j="4" />
 
-  <project path="manifests/synch-repo" name ="hlhtddx/android_customized_manifests" revision="synch-repo"/>
-  <project path="manifests/merge-repo" name ="hlhtddx/android_customized_manifests" revision="merge-repo"/>
-  <project path="manifests/car-emulator-oreo-mr1-release" name ="hlhtddx/android_customized_manifests" revision="car-emulator-oreo-mr1-release"/>
-  <project path="manifests/car-emulator-oreo-mr1-release-linux" name ="hlhtddx/android_customized_manifests" revision="car-emulator-oreo-mr1-release-linux"/>
-
   <project path="hlhtddx/android_device_asus_flo" name ="hlhtddx/android_device_asus_flo" />
   <project path="hlhtddx/android_device_htc_flounder" name ="hlhtddx/android_device_htc_flounder" />
 
@@ -37,7 +32,4 @@
   <project path="hlhtddx/proprietary_vendor_asus" name ="hlhtddx/proprietary_vendor_asus" />
   <project path="hlhtddx/proprietary_vendor_htc" name ="hlhtddx/proprietary_vendor_htc" />
 
-  <project path="hlhtddx/android_frameworks_native" name ="hlhtddx/android_frameworks_native" />
-  <project path="hlhtddx/android_system_bt" name ="hlhtddx/android_system_bt" />
-  <project path="hlhtddx/android_system_sepolicy" name ="hlhtddx/android_system_sepolicy" />
 </manifest>

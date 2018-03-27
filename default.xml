@@ -36,7 +36,10 @@
   <project path="hlhtddx/proprietary_vendor_asus" name="TheMuppets/proprietary_vendor_asus" />
   <project path="hlhtddx/proprietary_vendor_htc" name="TheMuppets/proprietary_vendor_htc" />
 
+  <project path="hlhtddx/android_external_bison" name="platform/external/bison" remote="aosp" />
+  <project path="hlhtddx/android_external_elfutils" name="platform/external_elfutils" remote="aosp" />
   <project path="hlhtddx/android_frameworks_native" name="platform/frameworks/native" remote="aosp" />
   <project path="hlhtddx/android_system_bt" name="platform/system/bt" remote="aosp" />
+  <project path="hlhtddx/android_system_core" name="platform/system/core" remote="aosp" />
   <project path="hlhtddx/android_system_sepolicy" name="platform/system/sepolicy" remote="aosp" />
 </manifest>

@@ -26,6 +26,4 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <remove-project name="platform/prebuilts/misc" path="prebuilts/misc" />
-  <project name="hlhtddx/android_prebuilts_misc" path="prebuilts/misc" remote="github" clone-depth="1" />
 </manifest>

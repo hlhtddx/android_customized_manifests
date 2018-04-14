@@ -43,4 +43,7 @@
   <project path="hlhtddx/android_system_core" name="platform/system/core" remote="aosp" />
   <project path="hlhtddx/android_system_sepolicy" name="platform/system/sepolicy" remote="aosp" />
   <project path="hlhtddx/android_prebuilts_misc" name="platform/prebuilts/misc" remote="aosp" />
+
+  <project path="hlhtddx/dosbox" name="svn2github/dosbox" revision="master" />
+
 </manifest>

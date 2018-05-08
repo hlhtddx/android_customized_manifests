@@ -48,4 +48,7 @@
   <project path="hlhtddx/SDL" name="SDL-mirror/SDL" revision="master" />
   <project path="hlhtddx/SDL_net" name="SDL-mirror/SDL_net" revision="master" />
 
+  <project path="hlhtddx/libpng" 	name="glennrp/libpng" revision="master" />
+  <project path="hlhtddx/zlib" 		name="glennrp/zlib" revision="master" />
+  <project path="hlhtddx/PDCurses" 	name="wmcbrine/PDCurses" revision="master" />
 </manifest>

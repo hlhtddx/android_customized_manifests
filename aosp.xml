@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com/"
+           review="review.gerrithub.io"
+           revision="car-emulator-oreo-mr1-release" />
+
+  <default remote="github"
+           sync-j="4" />
+
+  <project path="hlhtddx/android_external_bison" name="hlhtddx/android_external_bison" />
+  <project path="hlhtddx/android_external_elfutils" name="hlhtddx/android_external_elfutils" />
+  <project path="hlhtddx/android_frameworks_native" name ="hlhtddx/android_frameworks_native" />
+  <project path="hlhtddx/android_system_bt" name ="hlhtddx/android_system_bt" />
+  <project path="hlhtddx/android_system_core" name ="hlhtddx/android_system_core" />
+  <project path="hlhtddx/android_system_sepolicy" name ="hlhtddx/android_system_sepolicy" />
+  <project path="hlhtddx/android_prebuilts_misc" name ="hlhtddx/android_prebuilts_misc" />
+</manifest>

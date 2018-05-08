@@ -45,5 +45,7 @@
   <project path="hlhtddx/android_prebuilts_misc" name="platform/prebuilts/misc" remote="aosp" />
 
   <project path="hlhtddx/dosbox" name="svn2github/dosbox" revision="master" />
+  <project path="hlhtddx/SDL" name="SDL-mirror/SDL" revision="master" />
+  <project path="hlhtddx/SDL_net" name="SDL-mirror/SDL_net" revision="master" />
 
 </manifest>

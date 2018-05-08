@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com/"
+           review="review.gerrithub.io"
+           revision="master" />
+
+  <default remote="github"
+           sync-j="4" />
+
+  <project path="dosbox" name ="hlhtddx/dosbox" revision="faraway"/>
+  <project path="SDL/SDL" name ="hlhtddx/SDL" revision="hlhtddx/SDL-1.2"/>
+  <project path="SDL/SDL_net" name ="hlhtddx/SDL_net" revision="hlhtddx/SDL-1.2"/>
+
+</manifest>

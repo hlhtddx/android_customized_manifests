@@ -9,7 +9,7 @@
            sync-j="4" />
 
   <project path="dosbox" name ="hlhtddx/dosbox" revision="faraway"/>
-  <project path="SDL/SDL" name ="hlhtddx/SDL" revision="hlhtddx/SDL-1.2"/>
-  <project path="SDL/SDL_net" name ="hlhtddx/SDL_net" revision="hlhtddx/SDL-1.2"/>
+  <project path="SDL/SDL" name ="hlhtddx/SDL" revision="faraway"/>
+  <project path="SDL/SDL_net" name ="hlhtddx/SDL_net" revision="faraway"/>
 
 </manifest>

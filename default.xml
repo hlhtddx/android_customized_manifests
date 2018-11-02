@@ -36,6 +36,7 @@
   <project path="hlhtddx/proprietary_vendor_asus" name="TheMuppets/proprietary_vendor_asus" />
   <project path="hlhtddx/proprietary_vendor_htc" name="TheMuppets/proprietary_vendor_htc" />
 
+  <project path="hlhtddx/android_build_ckati" name="platform/build/kati" remote="aosp" />
   <project path="hlhtddx/android_external_bison" name="platform/external/bison" remote="aosp" />
   <project path="hlhtddx/android_external_elfutils" name="platform/external/elfutils" remote="aosp" />
   <project path="hlhtddx/android_frameworks_native" name="platform/frameworks/native" remote="aosp" />

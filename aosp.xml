@@ -3,7 +3,7 @@
   <remote  name="github"
            fetch="https://github.com/"
            review="review.gerrithub.io"
-           revision="car-emulator-oreo-mr1-release" />
+           revision="hlhtddx/oreo-mr1-release" />
 
   <default remote="github"
            sync-j="4" />

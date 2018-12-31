@@ -8,9 +8,16 @@
   <default remote="github"
            sync-j="4" />
 
-  <project path="manifests/synch-repo" name ="hlhtddx/android_customized_manifests" revision="synch-repo"/>
-  <project path="manifests/merge-repo" name ="hlhtddx/android_customized_manifests" revision="merge-repo"/>
   <project path="manifests/car-emulator-oreo-mr1-release" name ="hlhtddx/android_customized_manifests" revision="car-emulator-oreo-mr1-release"/>
   <project path="manifests/car-emulator-oreo-mr1-release-linux" name ="hlhtddx/android_customized_manifests" revision="car-emulator-oreo-mr1-release-linux"/>
+  <project path="manifests/hlhtddx/oreo-mr1-release" name ="hlhtddx/android_customized_manifests" revision="hlhtddx/oreo-mr1-release"/>
+
+  <project path="manifests/master" name ="hlhtddx/android_customized_manifests" revision="master"/>
+  <project path="manifests/merge-repo" name ="hlhtddx/android_customized_manifests" revision="merge-repo"/>
+  <project path="manifests/merge-repo-aosp" name ="hlhtddx/android_customized_manifests" revision="merge-repo-aosp"/>
+  <project path="manifests/merge-repo-github" name ="hlhtddx/android_customized_manifests" revision="merge-repo-github"/>
+  <project path="manifests/merge-repo-manifest" name ="hlhtddx/android_customized_manifests" revision="merge-repo-manifest"/>
+
+  <project path="manifests/synch-repo" name ="hlhtddx/android_customized_manifests" revision="synch-repo"/>
 
 </manifest>

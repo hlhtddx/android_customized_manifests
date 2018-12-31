@@ -3,13 +3,16 @@
   <remote  name="github"
            fetch="https://github.com/"
            review="review.gerrithub.io"
-           revision="master" />
+           revision="faraway" />
 
   <default remote="github"
            sync-j="4" />
 
-  <project path="dosbox" name ="hlhtddx/dosbox" revision="faraway"/>
-  <project path="SDL/SDL" name ="hlhtddx/SDL" revision="faraway"/>
-  <project path="SDL/SDL_net" name ="hlhtddx/SDL_net" revision="faraway"/>
+  <project path="dosbox" name ="hlhtddx/dosbox" />
+  <project path="SDL/SDL" name ="hlhtddx/SDL" />
+  <project path="SDL/SDL_net" name ="hlhtddx/SDL_net" />
+  <project path="other/libpng" name="hlhtddx/libpng" />
+  <project path="other/zlib" name="hlhtddx/zlib" />
+  <project path="other/PDCurses" name="hlhtddx/PDCurses" />
 
 </manifest>

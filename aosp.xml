@@ -8,6 +8,9 @@
   <default remote="github"
            sync-j="4" />
 
+  <project path="hlhtddx/android_platform_build" name="hlhtddx/android_platform_build" />
+  <project path="hlhtddx/android_build_ckati" name="hlhtddx/android_build_ckati" />
+  <project path="hlhtddx/android_build_soong" name="hlhtddx/android_build_soong" />
   <project path="hlhtddx/android_external_bison" name="hlhtddx/android_external_bison" />
   <project path="hlhtddx/android_external_elfutils" name="hlhtddx/android_external_elfutils" />
   <project path="hlhtddx/android_frameworks_native" name ="hlhtddx/android_frameworks_native" />

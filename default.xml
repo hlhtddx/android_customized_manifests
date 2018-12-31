@@ -9,12 +9,9 @@
            sync-j="4" />
 
   <project path="master" name ="hlhtddx/android_customized_manifests" revision="master"/>
-
-  <project path="car-emulator-oreo-mr1-release" name ="hlhtddx/android_customized_manifests" revision="car-emulator-oreo-mr1-release"/>
-  <project path="car-emulator-oreo-mr1-release-linux" name ="hlhtddx/android_customized_manifests" revision="car-emulator-oreo-mr1-release-linux"/>
-  <project path="hlhtddx/oreo-mr1-release" name ="hlhtddx/android_customized_manifests" revision="hlhtddx/oreo-mr1-release"/>
-
   <project path="merge-repo" name ="hlhtddx/android_customized_manifests" revision="merge-repo"/>
   <project path="synch-repo" name ="hlhtddx/android_customized_manifests" revision="synch-repo"/>
+
+  <project path="hlhtddx/oreo-mr1-release" name ="hlhtddx/android_customized_manifests" revision="hlhtddx/oreo-mr1-release"/>
 
 </manifest>

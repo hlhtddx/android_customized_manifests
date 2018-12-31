@@ -6,5 +6,5 @@
            revision="lineage-15.1" />
   <project name="LineageOS/android_device_htc_flounder" path="device/htc/flounder" remote="lineage" />
   <project name="LineageOS/android_kernel_htc_flounder" path="kernel/htc/flounder" remote="lineage" />
-  <project name="hlhtddx/proprietary_vendor_htc" path="vendor/htc" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" />
 </manifest>

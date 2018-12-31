@@ -6,5 +6,5 @@
            revision="lineage-15.1" />
   <project name="LineageOS/android_device_asus_flo" path="device/asus/flo" remote="lineage" />
   <project name="LineageOS/android_kernel_google_msm" path="kernel/google/msm" remote="lineage" />
-  <project name="hlhtddx/proprietary_vendor_asus" path="vendor/asus" remote="lineage" />
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="lineage" />
 </manifest>

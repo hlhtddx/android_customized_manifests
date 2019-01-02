@@ -5,6 +5,23 @@
            review="review.gerrithub.io"
            revision="hlhtddx/oreo-mr1-release" />
 
+  <remove-project name="platform/build" path="build/make" remote="aosp" />
+  <project name="hlhtddx/android_platform_build" path="build/make" remote="github" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="platform/build/kati" path="build/kati" />
+  <project name="hlhtddx/android_build_ckati" path="build/kati" remote="github" />
+
+  <remove-project name="platform/build/soong" path="build/soong" />
+  <project name="hlhtddx/android_build_soong" path="build/soong" remote="github" />
+
   <remove-project name="platform/external/bison" path="external/bison" />
   <project name="hlhtddx/android_external_bison" path="external/bison" remote="github" />
 
@@ -22,17 +39,6 @@
 
   <remove-project name="platform/system/sepolicy" path="system/sepolicy" />
   <project name="hlhtddx/android_system_sepolicy" path="system/sepolicy" remote="github" />
-
-  <remove-project name="platform/build" path="build/make" />
-  <project name="hlhtddx/android_platform_build" path="build/make" remote="github" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
 
   <remove-project name="platform/prebuilts/misc" path="prebuilts/misc" />
   <project name="hlhtddx/android_prebuilts_misc" path="prebuilts/misc" remote="github" clone-depth="1" />

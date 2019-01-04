@@ -7,6 +7,6 @@
 
   <project name="hlhtddx/android_vendor_hlhtddx" path="vendor/hlhtddx" remote="github" />
   <project name="hlhtddx/android_device_hlhtddx_car" path="device/hlhtddx/car" remote="github" />
-  <project name="hlhtddx/device_hlhtddx_bai_qi" path="device/hlhtddx/bai_qi" remote="github" />
-  <project name="hlhtddx/device_hlhtddx_zhuge_liang" path="device/hlhtddx/zhuge_liang" remote="github" />
+  <project name="hlhtddx/device_hlhtddx_BaiQi" path="device/hlhtddx/BaiQi" remote="github" />
+  <project name="hlhtddx/device_hlhtddx_KongMing" path="device/hlhtddx/KongMing" remote="github" />
 </manifest>
